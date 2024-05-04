@@ -1,0 +1,99 @@
+@font-face{
+    font-family: SF-Pro;
+    src: url(./SF-Pro.ttf)
+}
+
+body{
+    background-color: white;
+}
+
+#container{
+    font-family: SF-Pro;
+    height: auto;
+    width: 500px;
+    background-color: lightgray;
+    padding-top: 0.1px;
+}
+
+.header{
+    font-family: SF-Pro;
+    margin: 1px 1px 0px 1px;
+    background-color: #f7f7f7;
+    height: 30px;
+    padding-top: 15px;
+    font-size: large;
+}
+
+.isi{
+    font-family: SF-Pro;
+    background-color: white;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: -20px;
+    padding-top: 10px;
+}
+tr{
+    text-align: center;
+}
+/* .over{
+    text-align: left;
+   border: 10px solid gray; */
+/* } */
+p.text{
+    text-align: left;
+}
+.headerOver{
+    margin-top: 20px;
+    height: 20px;
+    font-size: large;
+}
+
+.overview{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    
+}
+.deskripsi{
+    background-color: white;
+    margin: 1px 1px 0px 1px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p.certi{
+    color: gray;
+    margin-bottom: 15px;
+}
+p.mmovie{
+    justify-content:center;
+    text-align: left;
+}
+
+p.mmovie, p.text, .header, p.judul{
+    font-weight: bold;
+}
+p.director{
+    text-align: left;
+}
+span.key{
+    text-align: left;
+    color: gray;
+}
+.writer{
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.writer span{
+    color: gray;
+}
+.cast{
+    text-align: left;
+    display: grid;
+    padding-right: 42px;
+    grid-template-columns: auto auto;
+}
+.cast span{
+    color: gray;
+}

@@ -1,0 +1,60 @@
+@font-face{
+    font-family: SF-Pro;
+    src: url(./SF-Pro.ttf)
+}
+body{
+    background-color: #eaeee8;
+    
+}
+p{
+    font-family: SF-Pro;
+}
+
+h3{
+    font-family: SF-Pro;
+}
+h1{
+    font-family: SF-Pro;
+    font-weight: bold;
+    text-align: left;
+}
+
+li{
+    list-style-type: none;
+}
+#container{
+    height: auto;
+    width: 500px;
+    background-color: white;
+    padding: 20px; 
+}
+
+p.tag{
+    color: grey;
+}
+.symbol{
+    text-align: right;
+    font-size: 20px;
+}
+hr.line{
+    text-align: right;
+}
+
+p.symbol{
+    text-align: right;
+    font-size: 30px;
+    color: grey;
+}
+
+tr{
+    border-style: solid;
+    border-color: gray;
+}
+
+.border{
+    border-bottom: 1px solid grey;
+}
+
+a{
+    text-decoration: none;
+}
